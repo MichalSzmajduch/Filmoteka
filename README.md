@@ -1,48 +1,28 @@
-# parcel-project-template
 
-## Zalezności
+# Project "Filmoteka"
 
-Na komputerze musi być zainstalowana LTS-wersja [Node.js](https://nodejs.org/en/).
+The "Filmoteka" project is a web application for browsing and managing a collection of movies. It was built using HTML, CSS, and JavaScript technologies.
 
-## Przed rozpoczęciem pracy
+## Description
 
-Jeden raz na projekt zainstalować wszystkie zalezności.
+The application allows users to search a movie database, add them to a "Watch Later" or "Watched" list, and use a modal window where they can find movie descriptions and options to add them to the queue or the watched list.
 
-```shell
-npm ci
-```
+## Gallery
 
-### Praca
+### 1. Main page with movie gallery
+![Mainpage](./public/images/main.png)
 
-Włączyć tryp pracy.
+### 2. Modal window with movie description and functionalities
+![Modal](./public/images/modal.png)
 
-```shell
-npm run dev
-```
+### 3. "Watched" tab
+![Watched](./public/images/watched.png)
 
-W przeglądarce przejść na [http://localhost:1234](http://localhost:1234).
+## Technologies Used
 
-### Deploy
-
-Kod będzie automatycznie się zbierać i robić deploy aktualnej wersji projektu 
-na GitHub Pages, w gałąź `gh-pages`, za kazdym razem jeśli zostaną wprowadzone zmiany w `main`. Na przykład, po bezpośrenim push lub po przyjęciu pull-request. Aby to działało musimy w pliku `package.json` zmienić pole `homepage` i skrypt
-`build`, zmieniając `nazwe_uzytkownika` i `nazwe_repozytorium` na swoje.
-
-```json
-"homepage": "https://nazwa_uzytkownika.github.io/nazwa_repozytorium",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /nazwa_repozytorium/"
-},
-```
-
-Po jakimś czasie stronę mozna będzie zobaczyć na zywo pod adresem który 
-jest wpisany w poprawione właściwości `homepage`, na przykład
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
-
-## Pliki i folderzy
-
-- Wszystkie partials plików styłów powinny być w folderze `src/sass` i importować się w
-  `src/sass/main.scss`
-- Zdjęcia dodawajcie w folder `src/images`, przed tym zoptymizujcie te zdjęcia które dodajecie. Program po prostu 
-  kopiuje wykorzystane zdjęcia aby system nie musiał optymizować je, bo na słabych komputerach 
-  to moze zająć duzo czasu.
+- HTML
+- CSS
+- JavaScript
+- GIT
+- FIGMA
+- API : "the Movie Database TMDB"

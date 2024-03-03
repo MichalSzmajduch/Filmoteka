@@ -7,6 +7,7 @@ import './js/add-watchlist';
 import './js/watchedLibrary';
 import './js/queueLibrary';
 import { showLoader, hideLoader } from './js/loader.js';
+import './js/scroll-header.js';
 
 import './js/modal-movie';
 
